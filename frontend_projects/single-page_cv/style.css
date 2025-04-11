@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Andika, Lato, sans-serif;
+}
+
+body {
+    padding: 1rem 4rem;
+}
+
+.separator {
+    border-top: 0.25rem solid black;
+    margin: 1rem 0;
+}
+
+section {
+    margin: 1rem 0;
+}
+
+h1 {
+    margin: 0.75rem 0;
+}
+
+h2 {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: rgb(22, 168, 22);
+}
+
+h3 {
+    margin: 0.25rem 0;
+    font-size: 1.1rem;
+    color: rgb(35, 105, 196);
+}
+
+ul {
+    padding-left: 2rem;
+}
