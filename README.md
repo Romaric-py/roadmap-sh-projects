@@ -3,6 +3,8 @@
 
 This repository contains a collection of collections of projects inspired by [roadmap.sh](https://roadmap.sh/).
 
+[Click here to view all roadmap.sh projects](https://roadmap.sh/projects)
+
 ## Project Structure
 
 The repository is organized into subfolders, each representing a set of specific projects. Below is a summary of the main folders:
