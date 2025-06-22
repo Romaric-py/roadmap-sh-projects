@@ -35,7 +35,7 @@ This repository contains a collection of frontend projects designed to improve H
 
 8. **[Image Grid Layout](./08-image-grid-layout/README.md)**  
    A responsive image grid layout with a zoom-in effect on click.  
-   [Project Link](https://roadmap.sh/projects/image-grid-layout)
+   [Project Link](https://roadmap.sh/projects/image-grid)
 
 9. **[Tooltip UI](./09-tooltip-ui/README.md)**  
    A tooltip component that appears above navigation items when hovered.  

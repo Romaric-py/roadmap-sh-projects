@@ -33,7 +33,7 @@ A collection of frontend-focused projects to practice and enhance HTML/CSS/JS sk
 7. [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)  
    An accessible form UI with input fields, error messages, and a password toggle feature.
 
-8. [Image Grid Layout](https://roadmap.sh/projects/image-grid-layout)  
+8. [Image Grid Layout](https://roadmap.sh/projects/image-grid)  
    A responsive image grid layout with a zoom-in effect on click.
 
 9. [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)  
