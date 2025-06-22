@@ -1,7 +1,7 @@
 
 # Frontend Projects
 
-This repository contains a collection of frontend projects designed to improve HTML and CSS skills. Each project focuses on a specific concept or UI component and is built using only HTML and CSS.
+This repository contains a collection of frontend projects designed to improve HTML, CSS and JavaScript skills. Each project focuses on a specific concept or UI component and is built using that three languages.
 
 ## Projects
 
