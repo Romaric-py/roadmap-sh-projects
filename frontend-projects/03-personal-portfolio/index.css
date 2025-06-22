@@ -1,0 +1,114 @@
+/* index.css */
+
+main {
+    padding: 0 3rem;
+}
+
+main > section:first-child {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    gap: 1rem;
+    border: 1px solid var(--border-color);
+    background-color: var(--background-color);
+}
+
+main h2, main h3 {
+    margin: 0.5rem 0 ;
+}
+
+#main-section  {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+}
+
+#main-section > section:nth-child(1) {
+    flex: 0 1 25%;
+}
+
+#main-section > section:nth-child(2) {
+    flex: 0 1 30%;
+}
+
+#main-section > section:nth-child(3) {
+    flex: 0 1 35%;
+}
+
+/* Projects */
+#projects .container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 0.25rem;
+}
+
+#projects .project a {
+    color: var(--text-color);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border-color);
+    display: block;
+    padding: 0.5rem 0.5rem;
+    &:hover {
+        font-weight: bold;
+        border-bottom: 2px solid var(--border-color);
+    }
+}
+
+/* Experience */
+#work-experience .container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#work-experience .experience a {
+    color: var(--accent-color);
+}
+
+/* Education */
+#education ul {
+    padding-left: 1.5rem;
+    list-style-type: "  -   ";
+}
+
+/* Reviews */
+#reviews {
+    margin: 2rem 0;
+    padding: 0 1rem;
+    border: 1px solid var(--border-color);
+}
+
+#reviews .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#reviews .review {
+    border: 1px solid var(--border-color);
+    flex-basis: 30%;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    max-width: 480px;
+    margin: 1rem 0.5rem;
+}
+
+#reviews .review .author, 
+#reviews .review .role {
+    color: var(--accent-color);
+    text-align: right;
+}
+
+@media (max-width: 720px) {
+    #reviews .container,
+    #main-section {
+        flex-flow: column;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+}

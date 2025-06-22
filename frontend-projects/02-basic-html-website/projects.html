@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Website</title>
+    <!-- SEO meta tags -->
+    <meta name="description" content="Site web multipage mais basique présentant un portfolio">
+    <meta name="keywords" content="portfolio, site, multipage, website, basique, HTML uniquement">
+    <meta name="author" content="Ifèdé ASSOGBA">
+    <!-- OG tags -->
+    <meta property="og:title" content="Basic HTML Website: Portfolio">
+    <meta property="og:description" content="Site web multipage mais basique présentant un portfolio">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <div class="top-bar">
+            <div class="img-name">
+                <i class="fa-solid fa-user"></i>
+                <p>Ifèdé ASSOGBA</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projets</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Projets</h1>
+        <aside class="menu" hidden>
+            <nav>
+                <ul>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#calculator">Calculatrice</a></li>
+                    <li><a href="#cli-todolist">CLI Todolist</a></li>
+                    <li><a href="#music-genre-recognizer">Reconnaissance de genres musicaux</a></li>
+                    <li><a href="#cv">Curriculum Vitae</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="container">
+            <section class="project" id="portfolio">
+                <h2>Portfolio</h2>
+                <p class="desc">Il s'agit de ce site où vous êtes actuellement</p>
+                <p class="link"><a href="index.html">Lien vers le projet</a></p>
+            </section>
+            <section class="project" id="calculator">
+                <h2>Calculatrice</h2>
+                <p class="desc">Une calculatrice fait en Python avec Tkinter</p>
+                <p class="link"><a href="">Lien vers le projet</a></p>
+            </section>
+            <section class="project" id="cli-todolist">
+                <h2>Todolist en ligne de commande</h2>
+                <p class="desc">Un gestionnaire de tâches en ligne de commande fait avec Dart</p>
+                <p class="link"><a href="">Lien vers le projet</a></p>
+            </section>
+            <section class="project" id="music-genre-recognizer">
+                <h2>Reconnaissance de genres musicales</h2>
+                <p class="desc">Un modèle de reconnaissance de genre musical à partir des caractéristiques de l'audio
+                    (limité à 10 genres musicaux)</p>
+                <p class="link"><a href="">Lien vers le projet</a></p>
+            </section>
+            <section class="project" id="cv">
+                <h2>Curriculum Vitae</h2>
+                <p class="desc">Il s'agit de mon CV en version page web</p>
+                <p class="link"><a href="../01-single-page_cv/index.html">Lien vers le projet</a></p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p id="copyright">&copy; Tous droits réservés &horbar; 2025</p>
+    </footer>
+
+</body>
+
+</html>

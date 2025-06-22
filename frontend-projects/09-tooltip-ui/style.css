@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', Lato, Andika, 'Ubuntu Sans', sans-serif;
+}
+
+nav {
+    margin-top: 10rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+nav li {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+nav .dot {
+    color: #777;
+    font-size: 2rem;
+}
+
+li .bubble,
+li .bubble-arrow {
+    display: none;
+}
+
+li:hover .bubble {
+    display: block;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    width: 200px;
+    transform: translate(-50%, -100%);
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    animation: appear 0.3s ease-in;
+}
+
+li:hover .bubble-arrow {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    border-top: 15px solid black;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    animation: appear 0.3s ease-in;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

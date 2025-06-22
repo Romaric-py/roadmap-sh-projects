@@ -1,0 +1,111 @@
+/* style.css */
+/* Styles communs à l'ensemble des pages */
+
+:root {
+    --background-color: #fff;
+    --text-color: #000;
+    --accent-color: #555;
+    --border-color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #000;
+        --text-color: #fff;
+        --accent-color: #ccc;
+        --border-color: #f5f5f5;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Andika, Verdana, Tahoma, sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--accent-color);
+}
+
+
+/* Header */
+header {
+    margin-bottom: 1rem;
+}
+
+header .top-bar {
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.img-name {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 160px;
+    align-items: center;
+}
+
+.img-name i {
+    scale: 1.5;
+}
+
+
+header nav {
+    flex-basis: clamp(300px, 50vw, 500px);
+
+    & ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+header nav ul a {
+    color: var(--text-color);
+    text-decoration: none;
+    &:hover {
+        padding-bottom: 2px;
+        border-bottom: 2px solid var(--border-color);
+        font-weight: bold;
+        transition: border 50ms linear;
+    }
+}
+
+/* Footer */
+footer {
+    margin: 2rem 0;
+    padding: 2rem 3rem;
+    border-top: 1px solid var(--border-color);
+}
+
+#copyright {
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    header .top-bar {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    header nav {
+        flex: auto;
+        width: 100%;
+    }
+
+    header .img-name {
+        flex: auto;
+        width: 100%;
+        justify-content: start;
+        gap: 1rem;
+    }
+}

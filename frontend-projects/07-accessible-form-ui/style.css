@@ -1,0 +1,136 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    padding: 2rem;
+}
+
+/* form */
+form {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+form .field {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.field .error {
+    font-size: 0.9rem;
+}
+
+.field.error {
+    color: red;
+}
+
+.field.error input {
+    border: 2px solid red;
+    color: red;
+}
+
+form input {
+    border: 2px solid black;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+form input:focus {
+    outline: 1px solid blue;
+}
+
+.password-wrapper {
+    position: relative;
+
+}
+
+.password-wrapper input[type=password]  {
+    width: 100%;
+    padding-right: 3rem;
+}
+
+.password-wrapper button  {
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding: 0.5rem;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+
+
+
+/* side content */
+.right-side {
+    flex: 0 1 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circular-progress-bar {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-right: 3px solid green;
+    border-bottom: 3px solid green;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.small-title {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.checklist {
+    flex: 1 1 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.checklist ul {
+    flex-grow: 1;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    padding: 1rem;
+    background-color: #ddd;
+    border-radius: 1rem;
+}
+
+.checklist li.done {
+    color: #777;
+    text-decoration: line-through;
+}

@@ -1,0 +1,22 @@
+/* projects.css */
+
+main h1 {
+    text-align: center;
+}
+
+main .menu nav ul {
+    padding: 0 3.2rem;
+}
+
+main .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    margin: 2rem 0;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+
+main .project {
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+}

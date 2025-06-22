@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Form UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="field">
+                <label for="fullname">Full name</label>
+                <input type="text" aria-required="true" name="fullname" id="fullname" aria-describedby="fullname-error" placeholder="What should we call you?">
+                <p id="fullname-error" class="error" aria-hidden="true" hidden>Invalid fullname</p>
+            </div>
+            <div class="field error">
+                <label for="email">Email</label>
+                <input type="email" aria-required="true" name="email" aria-invalid="true" id="email" aria-describedby="email-error" value="john@doe.com">
+                <p id="email-error" class="error" aria-hidden="false">Email is already taken</p>
+            </div>
+            <!-- Modified manually, but normally, we should use JavaScript to do that while validating the form -->
+            <div class="field">
+                <label for="password"> Enter Password</label>
+                <div class="password-wrapper">
+                    <input type="password" aria-required="true" aria-describedby="password-error" id="password" name="password">
+                    <button class="toggle-pw" type="button" aria-label="Afficher le mot de passe">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-eye-slash hidden"></i>
+                    </button>
+                </div>
+                <p id="password-error" class="error" aria-hidden="true" hidden>Password do not match</p>
+            </div>
+
+            <div class="field">
+                <label for="password">Confirm Password</label>
+                <div class="password-wrapper">
+                    <input type="password" aria-required="true" aria-describedby="confirm-password-error" id="confirm-password" name="confirm-password">
+                    <button class="toggle-pw" type="button" aria-label="Afficher le mot de passe">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-eye-slash hidden"></i>
+                    </button>
+                </div>
+                <p id="confirm-password-error" class="error" aria-hidden="true" hidden>Passwords do not match</p>
+            </div>
+
+        </form>
+
+        <div class="right-side">
+            <div class="circular-progress-bar">
+                <p>65%</p>
+            </div>
+            
+            <div class="checklist">
+                <p class="small-title">Profile Completeness</p>
+                <ul>
+                    <li class="done">Create Account</li>
+                    <li class="done">Update Roadmap progress</li>
+                    <li class="done">Setup Public Profile</li>
+                    <li>Complete your first project</li>
+                    <li>Invite your Friends</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
