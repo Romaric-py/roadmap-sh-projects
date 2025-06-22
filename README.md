@@ -18,7 +18,7 @@ A collection of frontend-focused projects to practice and enhance HTML/CSS/JS sk
 2. [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)  
    A basic multi-page website with sections for portfolio, projects, and contact.
 
-3. [Personal Portfolio](https://roadmap.sh/projects/personal-portfolio)  
+3. [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)  
    A personal portfolio website to showcase projects, experience, and education.
 
 4. [Changelog Component](https://roadmap.sh/projects/changelog-component)  

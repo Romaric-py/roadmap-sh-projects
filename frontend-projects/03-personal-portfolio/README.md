@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-https://roadmap.sh/projects/personal-portfolio
+https://roadmap.sh/projects/portfolio-website
 
 A personal portfolio website showcasing projects, work experience, education, and reviews.
 

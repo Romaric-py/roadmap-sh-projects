@@ -15,7 +15,7 @@ This repository contains a collection of frontend projects designed to improve H
 
 3. **[Personal Portfolio](./03-personal-portfolio/README.md)**  
    A personal portfolio website to showcase projects, experience, and education.  
-   [Project Link](https://roadmap.sh/projects/personal-portfolio)
+   [Project Link](https://roadmap.sh/projects/portfolio-website)
 
 4. **[Changelog Component](./04-changelog-component/README.md)**  
    A changelog component displaying a timeline of updates with dates and descriptions.  
