@@ -41,6 +41,10 @@ This repository contains a collection of frontend projects designed to improve H
    A tooltip component that appears above navigation items when hovered.  
    [Project Link](https://roadmap.sh/projects/tooltip-ui)
 
+10. **[Tabs](./10-tabs/README.md)**  
+   A simple tabs functionality using HTML, CSS and basic JavaScript.  
+   [Project Link](https://roadmap.sh/projects/simple-tabs)
+
 ## How to Use
 
 1. Clone the repository:

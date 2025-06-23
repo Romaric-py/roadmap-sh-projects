@@ -39,6 +39,10 @@ A collection of frontend-focused projects to practice and enhance HTML/CSS/JS sk
 9. [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)  
    A tooltip component that appears above navigation items when hovered.
 
+10. [Tabs]([./10-tabs/README.md](https://roadmap.sh/projects/simple-tabs))
+   A simple tabs functionality using HTML, CSS and basic JavaScript.
+
+
 ## How to Use
 
 1. Clone the repository:
